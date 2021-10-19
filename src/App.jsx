@@ -1,8 +1,8 @@
-import Login from "./components/Login";
+import Chat from "./components/Chat";
 
 const App = () => (
   <div className="app">
-    <Login />
+    <Chat />
   </div>
 );
 

@@ -1,0 +1,23 @@
+#Chat {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 15vw 70vw 15vw;
+  #Messages,
+  .sidebar {
+    position: relative;
+  }
+  .sidebar {
+    z-index: 1;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  }
+  @import "./Messages.scss";
+}
+@media (max-width: 768px) {
+  #Chat {
+    display: block;
+    .sidebar {
+      display: none;
+    }
+  }
+}

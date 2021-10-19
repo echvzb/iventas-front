@@ -1,38 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@700&family=Poppins:wght@400;600;700&display=swap");
-html{
-  height: -webkit-fill-available;
+html,
+label,
+input,
+button {
+  font-family: "Poppins", sans-serif;
 }
 body {
   margin: 0;
 }
-label, input, button{
+label,
+input,
+button {
   display: block;
-  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   border: none;
 }
-label{
-  font-family: 'Inter', sans-serif;
+label {
+  font-family: "Inter", sans-serif;
   color: #757575;
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 4px;
 }
-input{
+input {
   width: 100%;
   padding: 12px 22px;
   border-radius: 24px;
 }
-input:focus{
+input:focus {
   outline: none;
 }
-button{
+button {
   background: none;
   cursor: pointer;
   font-weight: 700;
 }
-@media (max-width: 768px){
-  html{
+@media (max-width: 768px) {
+  html {
     font-size: 14px;
   }
 }
